@@ -35,7 +35,7 @@ def waveguide_antenna(wg, h):
   c.flatten()
 
 
-  gdsII_file= "/home/reema/Desktop/PIC/grating_coupler_"+str(idx)+".gds"
+  gdsII_file= "path"+str(idx)+".gds"
 
   c.write_gds(gdsII_file)
   return c.xsize, c.ysize, gdsII_file
